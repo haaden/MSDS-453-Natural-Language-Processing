@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hag8665/ontologies/2022/2/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hag8665/ontologies/2022/2/untitled-ontology-9">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Annual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Management_efficency_raios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profitabilty_ratios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quarterly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratios_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stock_thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balance_sheet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cash_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#current_pirce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#definations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dividends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#esg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#financial_terms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#historical_price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#income_staments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intraday_price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leverage_raios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#liquidity_ratios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#news"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ratings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valuation_ratios"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Annual"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Quarterly"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Annual"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial_Statements"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intents"/>
+        <Class IRI="#Stock_thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Management_efficency_raios"/>
+        <Class IRI="#Ratios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profitabilty_ratios"/>
+        <Class IRI="#Ratios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quarterly"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratios"/>
+        <Class IRI="#definations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratios_data"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balance_sheet"/>
+        <Class IRI="#Financial_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cash_flow"/>
+        <Class IRI="#Financial_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#current_pirce"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definations"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dividends"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#esg"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#financial_terms"/>
+        <Class IRI="#definations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#historical_price"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#income_staments"/>
+        <Class IRI="#Financial_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intraday_price"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leverage_raios"/>
+        <Class IRI="#Ratios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#liquidity_ratios"/>
+        <Class IRI="#Ratios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metrics"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#news"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peers"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ratings"/>
+        <Class IRI="#Intents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valuation_ratios"/>
+        <Class IRI="#Ratios"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Quarterly"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Annual"/>
+        <Class IRI="#Annual"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Quarterly"/>
+        <Class IRI="#Quarterly"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Annual"/>
+        <Class IRI="#Financial_Statements"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Annual"/>
+        <Class IRI="#balance_sheet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Annual"/>
+        <Class IRI="#cash_flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Annual"/>
+        <Class IRI="#income_staments"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Quarterly"/>
+        <Class IRI="#Financial_Statements"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Quarterly"/>
+        <Class IRI="#balance_sheet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Quarterly"/>
+        <Class IRI="#cash_flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Quarterly"/>
+        <Class IRI="#income_staments"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

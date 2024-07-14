@@ -1,0 +1,407 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thank you so much for your help",
+                "That's helpful",
+                "Awesome, thanks",
+                "Woww, thanks",
+                "Great",
+                "Thanks for helping me",
+                "Ok, thanks",
+                "excellent",
+                "Woww excellent",
+                "That great",
+                "I appreciate your help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "I'm glad to help"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I can't understand you",
+                "Please give me more details",
+                "Sorry, I do not understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "helpintents",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "Help"
+            ],
+            "responses": [
+                "I can help you retrieve some data like stock price or timeseries.I can also provide some API details such as Refinitiv Real-Time APIs,Eikon Data API and provide link to download API",
+                "I have some knowledge about Refinitiv Real-Time APIs (RFA,EMA, etc) and Eikon Data API. Anyway, I can help you get price or timeseries from Eikon Desktop",
+                "I can help for Refinitiv Real-Time/Eikon Data API download, provide API compatibility Matrix. I can also help you get price or timeseries data from Eikon Desktop"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "messengerbotapi",
+            "patterns": [
+                "Messenger Bot API",
+                "BOT API",
+                "Do you have any Chat BOT API?",
+                "Do you have API for Eikon Messenger"
+            ],
+            "responses": [
+                "We provide REST and WebSocket API to access Eikon Messenger. Find more details about Messenger Bot API from  https://developers.refinitiv.com/en/api-catalog/messenger-api/messenger-bot-api",
+                "Please check Messenger BOT API https://developers.refinitiv.com/en/api-catalog/messenger-api/messenger-bot-api"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "eikondataapiforR",
+            "patterns": [
+                "Eikon API to retrieve timeseries data through R package",
+                "Can I use Eikon Data API with R programming",
+                "Any R library for Eikon Data API",
+                "use Eikon Data API with R"
+            ],
+            "responses": [
+                "As far as I know, there is R library available by an external source - it is not supported by Refinitv, but should give idea of how it can be used. You can find that library here: https://github.com/ahmedmohamedali/eikonapir"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "eikondataapipython",
+            "patterns": [
+                "Do you know Eikon Data API?",
+                "Do you have API for Eikon?",
+                "API for Eikon",
+                "Can I use Eikon data api with Python?",
+                "Eikon data api python",
+                "API for Eikon Desktop",
+                "What API is offered for Eikon Desktop"
+            ],
+            "responses": [
+                "I would suggest you check Eikon Data API from https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/quick-start.",
+                "You can find the list of Eikon APIs from https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api. Anyway Eikon Data API can be used with python."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rtsdkapi",
+            "patterns": [
+                "Which API can use to retrieve data from RTDS",
+                "Which API can use to retrieve data from ADS",
+                "Which API can use to retrieve data from Refinitiv Real Time",
+                "Which API can publish data to RTDS",
+                "Which API can use to publish data to ADH"
+            ],
+            "responses": [
+                "You can use Refinitiv Real-Time SDK (RTSDK) such as EMA API to retrieve, publish and contribute data. See more details from https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time, there is download section in each API.",
+                "EMA(C++/Java) can consuming and publishing data to Refinitiv Real-Time. You can use RTSDK to contribute data to RCC. Find more details from https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rtsdkdownload",
+            "patterns": [
+                "download EMA",
+                "download EMA C++",
+                "download EMA Java",
+                "download RTSDK C++",
+                "download RTSDK Java",
+                "How to download Real-Time SDK?",
+                "How to download EMA C++?",
+                "Where can I download ETA?",
+                "How to download EMA JAVA?",
+                "How to download Open DACS API",
+                "Give me a list of RTSDK APIs",
+                "Any github for Real-Time SDK",
+                "github for RTSDK"
+            ],
+            "responses": [
+                "You can download RTSDK from  https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time. Or go to github https://github.com/Refinitiv/Real-Time-SDK",
+                "If you use GitHub you can download RTSDK from github https://github.com/Refinitiv/Real-Time-SDK. Find more tutorial from  https://github.com/Refinitiv/Real-Time-SDK"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag":"eta_over_ema_1",
+            "patterns":["On what scenarios one should Prefer ETA over EMA?","Should I use EMA or EMA?"],
+            "responses":["ETA is targeted for applications that need very high throughput with the lowest latency we offer. In addition, it exposes a wide array of tuning options so you have the ability to control your network layer down to the last detail. EMA is still quite performant but defaults many configuration options and provides more ease of use for rapid onboarding and a more intuitive user experience. If you are finding that EMA is able to handle your use case it sounds like you are at the right layer!"],
+            "context":[""]
+        },
+        {
+            "tag":"eta_over_ema_2",
+            "patterns":["difference between API products: RFA vs ETA vs EMA vs UPA","Can you compare EMA and ETA","Can you compare RFA and EMA?"],
+            "responses":["As for differences, in summary:\nRFA is our legacy feature complete API\nUPA has now been re-branded as Enterprise Transport API (ETA)\nETA is our lowest level highest performance strategic API\nEnterprise Message API is a higher level strategic API which is easier to use whilst still offering a high level of performance.\nFor most developers EMA is the recommend API for any new development or rewrite of existing applications. The performance should be more than adequate for the majority of use case scenarios.It is much easier to learn, less code is required to implement functionality and therefore also easier to maintain long term.\nFor those requiring the highest level of performance e.g. algorithmic trading - they should consider ETA.\nFor a high level overview of EMA please refer them to article Introduction to Enterprise Message API(https://developers.refinitiv.com/en/article-catalog/article/introduction-elektron-message-api) as well as the Refinitiv Real-Time SDK page https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time."],
+            "context":[""]
+        },
+        {
+            "tag": "rtsdkinfo",
+            "patterns": [
+                "EMA",
+                "ETA",
+                "RTSDK",
+                "UPA",
+                "EMA C++",
+                "ETA C++",
+                "RTSDK C++",
+                "EMA Java",
+                "ETA Java",
+                "UPA C++",
+                "UPA Java",
+                "Real-Time SDK"
+            ],
+            "responses": [
+                "You can find details regarding Refinitiv Real-Time SDK from https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time",
+                "Find more details from https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rtsdkdcompat",
+            "patterns": [
+                "Can I use RTSDK on Linux?",
+                "Can I use RFA on RHEL7",
+                "Can I use EMA on RHEL7",
+                "Can I use EMA on Linux?",
+                "Can I use Real-Time SDK on Linux",
+                "Can I use RTSDK on Windows",
+                "RTSDK support OS",
+                "Can I use EMA with gcc 4.x",
+                "Do you support Ubuntu?"
+            ],
+            "responses": [
+                "You can use Refinitiv Real-Time APIs (RFA, OpenDACS, etc) and Real-Time SDK(EMA/ETA) on Windows and Linux. Anyway please find supported OS and Compiler from API Compatibility Matrix https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/rt-sdk-cc/documentation#api-compatibility-matrix"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rtsdkdotnet",
+            "patterns": [
+                "Where can I download RTSDK for .NET?",
+                "Any EMA for .NET?",
+                "EMA support .NET",
+                "Plan to support EMA .NET",
+                "Any C# version of RTSDK"
+            ],
+            "responses": [
+                "Currently Refinitiv Real-Time SDK (RTSDK) does not support .NET. Only C++ and Java version available on https://github.com/Refinitiv/Real-Time-SDK or https://developers.refinitiv.com/en/use-cases-catalog/refinitiv-real-time",
+                "RTSDK does not support .NET. The Websocket API seems to be the only one which can support .NET as it is language agnostic. There are code samples in most programming language, including .NET and Python."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "get_data",
+            "patterns": [
+                "I want to retrieve data",
+                "get data",
+                "get stock data",
+                "Can you retreive data?",
+                "Can you help me get data?",
+                "Any way to get data."
+            ],
+            "responses": [
+                "I can retreive some of the timeseries data (limit to 30 days) or snapshot of stock price.\nDo you need timeseries or price?",
+                "Do you want to retreive timeseries (limit to 30 days) or price?"
+            ],
+            "context": [
+                "get_data"
+            ],
+            "context_set":["gettimeseries","getsnapshot"]
+        },
+        {
+            "tag": "apihistoricaldata",
+            "patterns": [
+                "I want API to download historical data",
+                "Any API to retreive historical data",
+                "API for Tick History",
+                "Tick History",
+                "Tick Histrocial data",
+                "API to request Historical data",
+                "API to request Historical data"
+            ],
+            "responses": [
+                "Please see Tick Historical REST API and DSS API.Find details from https://developers.refinitiv.com/en/api-catalog/refinitiv-tick-history/refinitiv-tick-history-rth-rest-api and https://developers.refinitiv.com/en/api-catalog/datascope-select/datascope-select-rest-api",
+                "I would suggest Tick Historical REST API https://developers.refinitiv.com/en/api-catalog/refinitiv-tick-history/refinitiv-tick-history-rth-rest-api. See also DSS REST API https://developers.refinitiv.com/en/api-catalog/datascope-select/datascope-select-rest-api"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "gettimeseries",
+            "patterns": [
+                "I want to get timeseries",
+                "I want to get timeseries data",
+                "I want to retreive timeseries",
+                "I want to retrieve timeseries data",
+                "historical data",
+                "historical",
+                "timeseries",
+                "timeseries data",
+                "get timeseries data",
+                "get historical data",
+                "retreive historical data"
+            ],
+            "responses": [
+                "Please provide RIC name",
+                "Can you provide RIC name"
+            ],
+            "context": [
+                "gettimeseries"
+            ],
+            "context_link": [
+                "ric_confirmed"
+            ]
+        },
+        {
+            "tag": "getsnapshot",
+            "patterns": [
+                "I want to get price",
+                "price",
+                "get price",
+                "Can I get price",
+                "Can I get stock price",
+                "Can you help me get stock price",
+                "snapshot",
+                "snapshot data",
+                "get snapshot data",
+                "get latest price",
+                "retreive snapshot data",
+                "retrieve stock price",
+                "retrieve latest price"
+            ],
+            "responses": [
+                "Please provide RIC name",
+                "Can you provide RIC name"
+            ],
+            "context": [
+                "getsnapshot"
+            ],
+            "context_link": [
+                "ric_confirmed"
+            ]
+        },
+        {
+            "tag": "ric_confirmed",
+            "patterns": [],
+            "responses": [
+                "Let me check, please wait.",
+                "Ok, Let me check.",
+                "Roger that! Wait for a second."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clear_context",
+            "patterns": [
+                "clear context","reset","clear"
+            ],
+            "responses": [
+                "Roger that!!,  how can I help?"
+            ],
+            "context": [
+                ""
+            ],
+            "context_link": [
+                ""
+            ]
+        },
+        {
+            "tag": "changeconfidencelevel",
+            "patterns": [
+                "change confidence level",
+                "confidence change",
+                "confidence level",
+                "adjust confidence level"
+                
+            ],
+            "responses": [
+                "Please provide new value from (0.0-1.0):"
+            ],
+            "context": [
+                "changeconfidencelevel"
+            ],
+            "context_link": [
+                "confidencechange_confirmed"
+            ]
+        },
+        {
+            "tag": "confidencechange_confirmed",
+            "patterns": [],
+            "responses": [
+                "Changing ML confidence level"
+            ],
+            "context": [""]
+        }
+    ]
+}
